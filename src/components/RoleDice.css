@@ -1,0 +1,14 @@
+.role-dice{
+    width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--fontFamily);
+    font-weight: 700;
+}
+.dice{
+    cursor: pointer;
+}

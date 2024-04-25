@@ -1,0 +1,81 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    /* height: 151px; */
+    width: 80vw;
+    margin: 20px auto;
+}
+.score-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* gap: 10px; */
+}
+.score-div h1{
+    
+font-family: var(--fontFamily);
+font-size: 100px;
+font-weight: 500;
+/* line-height: 130px; */
+text-align: center;
+}
+.score-div p{
+    font-family:var(--fontFamily);
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+.error-div{
+    text-align: right;
+    color: red;
+    font-weight: 500;
+    font-family: var(--fontFamily) ;
+}
+.select-num{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.select-num p{
+    text-align: right;
+    font-family: var(--fontFamily);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+
+}
+.number-div{
+    display: flex;
+    gap: 24px;
+}
+.num-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 72px;
+    width: 72px;
+    border: 3px solid black;
+
+    font-family: var(--fontFamily);
+font-size: 24px;
+font-weight: 700;
+/* transition: background-color 0.9s ease-in-out, color 0.5 ease-out; */
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.btns button{
+    width: 100px;
+    padding: 5px 0;
+}
+.show-rules{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
